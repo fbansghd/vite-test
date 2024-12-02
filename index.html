@@ -1,13 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Memo App</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <h1>Memo App</h1>
+    <div>
+      <textarea id="new-memo-content" placeholder="Write a new memo..."></textarea>
+      <br />
+      <button id="add-memo">Add Memo</button>
+    </div>
+    <h2>Memos</h2>
+    <div id="memo-list"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
